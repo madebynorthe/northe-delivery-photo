@@ -1,8 +1,18 @@
-# AUDAZ × Colares & Estácio — Galeria Corporativa
+# LEGADO TEMPORÁRIO — Colares & Estácio — Galeria Corporativa
 
-Galeria fotográfica responsiva para entrega ao cliente, construída como site estático leve para GitHub Pages.
+Galeria fotográfica responsiva usada para entrega ao cliente.
 
-## Estrutura
+## Status
+
+Este repositório continua apenas enquanto a entrega atual não for incorporada ao NORTHE Delivery.
+
+Não usar como base para novos clientes, novas galerias ou novos produtos.
+
+Destino de consolidação:
+
+`produtoraaudaz-a11y/audaz-delivery`
+
+## Estrutura atual
 
 - `index.html` — interface da entrega
 - `styles.css` — identidade, responsividade e motion/UI animation
@@ -14,16 +24,10 @@ Galeria fotográfica responsiva para entrega ao cliente, construída como site e
 
 As imagens de navegação são carregadas em versões otimizadas a partir da pasta oficial pública no Google Drive. Os originais permanecem no Drive.
 
-O workflow `Publicar galeria` baixa os originais, cria `Colares-Estacio_Fotos-Corporativas_AUDAZ.zip` e mantém o arquivo disponível como release do GitHub para o botão **Baixar galeria**.
+O workflow atual ainda pode manter nomes técnicos antigos. Não alterar esses identificadores apenas por branding enquanto a migração não estiver concluída.
 
-## Atualizar a entrega
+## Regra de manutenção
 
-Quando novas fotos forem adicionadas à pasta do Drive:
+Fazer somente correções necessárias para a entrega existente. Qualquer evolução nova deve nascer dentro do NORTHE Delivery.
 
-1. Atualize a lista `photos` em `app.js` caso existam novos IDs.
-2. Faça push na `main`.
-3. O GitHub Actions republica o site e regenera o pacote completo.
-
-## Direção visual
-
-A interface segue a direção aprovada para o AUDAZ Delivery: fotografia como protagonista, pouco texto, mosaico contínuo, tipografia forte, grafite/off-white/vermelho e movimento discreto.
+NORTHE — MADE IN THE NORTH.
